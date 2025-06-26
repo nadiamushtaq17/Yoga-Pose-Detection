@@ -1,0 +1,102 @@
+.home-header {
+    background: linear-gradient(100deg,#8B4513, #A0522D); /* Brown shades */
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.home-container {
+    background:#9d796a;; /* Deep brown */
+    min-height: 100vh;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.home-heading {
+    font-size: 44px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    transition: transform 0.3s ease;
+}
+
+.home-heading:hover {
+    transform: scale(1.05);
+}
+
+.home-main {
+    margin-top: -50px;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 750px;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.home-main:hover {
+    background-size: 800px;
+}
+
+.description {
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.btn-section {
+    position: absolute;
+    left: 38vw;
+    top: 60vh;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    border: 3px solid pink;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.3);
+}
+
+.btn:hover {
+    background: pink;
+    color: brown;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 192, 203, 0.6);
+}
+
+#about-btn {
+    padding: 5px 15px;
+    font-size: 16px;
+    border: 2px solid pink;
+}
+
+#about-btn:hover {
+    background-color: pink;
+    color: brown;
+    border-color: white;
+}
+
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
