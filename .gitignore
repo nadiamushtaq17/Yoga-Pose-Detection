@@ -1,5 +1,25 @@
-new_venv/
+# Python virtual environments
+.venv/
 venv/
-.env/
+env/
+
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# TensorFlow model files
+*.tflite
+
+# OS files
+.DS_Store
+Thumbs.db
